@@ -1,4 +1,4 @@
-#ifndef DEFAULTDIALOG_H
+﻿#ifndef DEFAULTDIALOG_H
 #define DEFAULTDIALOG_H
 
 #include <QDialog>
@@ -14,6 +14,11 @@ class DefaultDialog : public QDialog
 public:
     DefaultDialog(QWidget *parent = nullptr);
     ~DefaultDialog();
+
+private slots:
+    void on_regist_clicked();
+
+    void on_login_clicked();
 
 private:
     Ui::DefaultDialog *ui;
