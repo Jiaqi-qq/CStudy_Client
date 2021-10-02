@@ -1,4 +1,4 @@
-#include "defaultdialog.h"
+﻿#include "defaultdialog.h"
 
 #include <QApplication>
 
@@ -8,4 +8,5 @@ int main(int argc, char *argv[])
     DefaultDialog w;
     w.show();
     return a.exec();
+
 }
